@@ -15,7 +15,7 @@ namespace ConsoleApp
             Console.Write("Last Name: ");
             var lastName = Console.ReadLine();
 
-            Console.WriteLine("Hello {0} {1} {2}!!!", firstName, name, lastName);
+            Console.WriteLine("Hello {0} {1} {2}!", firstName, name, lastName);
         }
     }
 }
