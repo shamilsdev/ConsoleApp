@@ -6,11 +6,16 @@ namespace ConsoleApp
     {
         static void Main()
         {
-            Console.Write("Name: ");
-            var name = Console.ReadLine();
             Console.Write("First name: ");
             var firstName = Console.ReadLine();
-            Console.WriteLine("Hello {0} {1}!!!", name, firstName);
+
+            Console.Write("Name: ");
+            var name = Console.ReadLine();
+
+            Console.Write("Last Name: ");
+            var lastName = Console.ReadLine();
+
+            Console.WriteLine("Hello {0} {1} {2}!!!", firstName, name, lastName);
         }
     }
 }
